@@ -1,14 +1,14 @@
 //
-//  bullseyeApp.swift
-//  bullseye
+//  Shopping_List_2App.swift
+//  Shopping List 2
 //
-//  Created by Irfan Syed on 2/17/22.
+//  Created by Tony Hong on 3/27/22.
 //
 
 import SwiftUI
 
 @main
-struct bullseyeApp: App {
+struct Shopping_List_2App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
