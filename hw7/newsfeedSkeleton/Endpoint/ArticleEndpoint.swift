@@ -10,9 +10,9 @@ import SwiftUI
 
 protocol APIBuilder {
     
-    var urlRequest: URLRequest{get}
+    var urlRequest: URLRequest { get }
     
-    var baseUrl: URL{ get }
+    var baseUrl: URL { get }
     
     var path: String { get }
     
@@ -27,14 +27,14 @@ enum ArticleAPI{
 extension ArticleAPI: APIBuilder {
     
     var baseUrl: URL{
-        switch self{
+        switch self {
         case .getNews:
             return URL(string: "https://api.lil.software")!
         }
     }
     
     var path: String {
-        switch self{
+        switch self {
         case .getNews:
             return "/news"
         }
